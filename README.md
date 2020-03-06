@@ -32,10 +32,8 @@ cd Django-Advanced-User-Authentication
 ### Install dependencies & activate virtualenv
 
 ```
-pip install virtualenv
-pip install virtualenvwrapper-win
-
-mkvirtualenv myproject
+python -m venv myproject
+myproject\Scripts\activate
 
 pip install django
 pip install bootstrap4
