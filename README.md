@@ -36,7 +36,7 @@ python -m venv myproject
 myproject\Scripts\activate
 
 pip install django
-pip install bootstrap4
+pip install django-bootstrap4
 
 ```
 
